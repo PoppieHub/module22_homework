@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+}
+
+.animation {
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+}
+
+.animation__button {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+
+}
+
+.animation__button:hover {
+    transform: translateY(+3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.animation__button:active {
+    transform: translateY(+1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.animation__icon {
+    margin: 0 5px;
+    font-size: 1em;
+}

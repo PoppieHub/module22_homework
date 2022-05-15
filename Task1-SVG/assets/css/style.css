@@ -1,0 +1,35 @@
+body {
+    background-color: antiquewhite;
+}
+
+svg {
+    margin-bottom: 10px;
+}
+
+.flags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 20%;
+}
+
+.flags__line {
+    stroke-width: 30px;
+}
+
+.white {
+    fill: white;
+    stroke: white;
+}
+
+.blue {
+    fill: blue;
+    stroke: blue;
+}
+
+.red {
+    fill: red;
+}
